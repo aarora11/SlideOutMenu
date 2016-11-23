@@ -113,13 +113,12 @@ const customStyles = {
      handleFormSubmit(){
 
          // this.props.searchPatientData(this.state.initalSearchParams);
-         if(this.state.initalSearchParams.includes("PSA") && this.state.initalSearchParams.includes("Testosterone")){
-             console.log(this.state.initalSearchParams);
+        
 
              this.props.searchPatientData();
              this.context.router.push('patientDetails');
 
-         }
+        
 
 
 
